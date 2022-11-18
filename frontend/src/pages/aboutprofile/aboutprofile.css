@@ -1,0 +1,130 @@
+.dashbaord .topbar-banner {
+  height: 180px;
+  background-color: #ffe7b5;
+  position: relative;
+}
+.dashbaord .profile-image-banner {
+  position: absolute;
+  top: 119px;
+  display: flex;
+  justify-content: space-between;
+}
+.dashbaord .profile-image-banner .edit-button {
+  border: 2px solid black;
+
+  position: absolute;
+  left: 55rem;
+  height: 36px;
+  width: 123px;
+  top: 50px;
+  border-radius: 12px;
+}
+
+.dashbaord .profile-image-banner img {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  left: 50px;
+  border: 3px solid #ffffff;
+  border-radius: 100px;
+}
+
+.dashbaord .profile-text-data h4 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.dashbaord .profile-text-data h6 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+}
+.dashbaord .bio-data .col-sm-8 {
+  height: 96px;
+  width: 532px;
+
+  border-radius: nullpx;
+}
+.dashbaord .container .profile-text-data .links {
+  text-decoration: none;
+  color: #464647;
+  
+
+}
+
+.dashbaord .container .profile-text-data .links-tabs {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #464647;
+  list-style: none;
+
+}
+.dashbaord .bio-data .col-sm-8 {
+  max-width: 700px;
+}
+.dashbaord .bio-data .col-sm-8 h3 {
+  width: 74px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #14192c;
+}
+.dashbaord .bio-data .col-sm-8 .btn-passions {
+  height: 32px;
+  border-radius: 12px;
+
+  background-color: #01073f;
+  color: #ffffff;
+}
+.dashbaord .col-sm-4 .social-icons {
+  display: flex;
+}
+
+.dashbaord .col-sm-4 .social-icons Link {
+  text-decoration: none;
+}
+.dashbaord .col-sm-4 .social-icons .twitter-icon {
+  color: #4a9ce4 !important;
+  height: 17px;
+  width: 20.919998168945312px;
+  border-radius: 0px;
+}
+.dashbaord .col-sm-4 .social-icons .linkedln-icon {
+  color: #3276b0 !important;
+  height: 17px;
+  width: 20.919998168945312px;
+
+  border-radius: 0px;
+}
+.dashbaord .col-sm-4 .social-icons .instagram-icon {
+  color: #14192c !important;
+  height: 17px;
+  width: 20.919998168945312px;
+
+  border-radius: 0px;
+}
+.dashbaord .col-sm-4 .social-icons .facebook-icon {
+  color: #3f5493 !important;
+  height: 17px;
+  width: 20.919998168945312px;
+
+  border-radius: 0px;
+}
+.dashbaord .col-sm-4 .social-icons .pinterest-icon {
+  color: #b4322f !important;
+  height: 17px;
+  width: 20.919998168945312px;
+
+  border-radius: 0px;
+}

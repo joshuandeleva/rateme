@@ -1,0 +1,38 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.side-panel-menu .settings {
+    text-decoration: none;
+}
+
+.sidebarOption__title {
+    font-size: 18px !important;
+    text-decoration: none !important;
+}
+
+.sidebarOption:hover {
+    color: #ffc247 !important;
+    background-color: #362036;
+    border-radius: 30px;
+    transition: color 100mss ease-out;
+}
+
+.sidebarOption --active {
+    color: #1da1f2;
+}
+
+.sidebarOption>h2 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.sidebarOption__Icon {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 30px;
+}

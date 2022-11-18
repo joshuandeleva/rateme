@@ -1,0 +1,18 @@
+input.form-control,
+input.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  outline-style: none !important;
+}
+input[type="text"]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  outline-style: none !important;
+}
+.contact-footer {
+  background-color: #e3ebe2;
+}

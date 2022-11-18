@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.dashbaord .row .banner-container .accounts-profile .row .col-sm-8 {
+    margin-left: 7rem !important;
+    max-width: 500px;
+}
+
+.dashbaord .row .banner-container .accounts-profile .row .col-sm-8 .profile-images img {
+    height: 320px;
+    min-width: 435px;
+    object-fit: cover;
+}
+
+.dashbaord .row .banner-container .accounts-profile .row .col-sm-8 .profiledata-user {
+    height: 576px;
+}
+
+.dashbaord .row .banner-container .accounts-profile .row .col-sm-8 .user-details-data .d-flex button {
+    background-color: none;
+    border: 1px solid gray;
+}

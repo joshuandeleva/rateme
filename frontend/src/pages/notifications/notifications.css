@@ -1,0 +1,225 @@
+
+
+.col-sm-8 .emails-notifications li {
+    list-style: none;
+}
+.dashbaord .banner-container .banner-bar .settings {
+    width: 120px;
+    height: 39px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #242731;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .dashbaord .banner-container .banner-bar .row .col-sm-8 .settings-links {
+    text-decoration: none;
+    /* Account details */
+  
+    width: 134px;
+    height: 23px;
+  
+    /* tittle/18 M */
+  
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #5f6165;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .dashbaord
+    .banner-container
+    .banner-bar
+    .row
+    .col-sm-8
+    .settings-links.active-tab {
+    color: #ffc247 !important;
+  }
+  .dashbaord .banner-container .banner-bar .row .col-sm-6 .settings-data {
+    /* Component 86 */
+  
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 22px 14px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #e9eaec;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .dashbaord .banner-container .banner-bar .row label {
+    left: 0%;
+    right: 88.83%;
+    top: 0%;
+    bottom: 76.32%;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7c7c8d;
+  }
+  
+  .dashbaord .banner-container .banner-bar .row .col-sm-9 .settings-emails {
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 14px;
+    gap: 10px;
+  
+    width: 788px;
+    height: 40px;
+  
+    border: 1px solid #e9eaec;
+    border-radius: 10px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+.react-switch-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.react-switch-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 36px;
+    height: 18px;
+    background: #FEE9BE;
+    border-radius: 100px;
+    position: relative;
+    transition: background-color .2s;
+}
+
+.react-switch-label .react-switch-button {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    border-radius: 45px;
+    transition: 0.2s;
+    background: #FFC347;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked+.react-switch-label .react-switch-button {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+    width: 60px;
+}
+
+*/ .container {
+    text-align: center;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 75px;
+    display: inline-block;
+    text-align: left;
+    top: 8px;
+}
+
+.d-flex .label-side {
+    width: 200px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid #FEE9BE;
+    border-radius: 20px;
+}
+
+.inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.inner:before,
+.inner:after {
+    float: left;
+    width: 50%;
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.inner:before {
+    content: "OFF";
+    padding-left: 10px;
+    background-color: red;
+    color: #fff;
+}
+
+.inner:after {
+    content: "NO";
+    padding-right: 10px;
+    background-color: #FEE9BE;
+    color: #fff;
+    text-align: right;
+}
+
+.switch {
+    display: block;
+    width: 24px;
+    margin: 5px;
+    background: #FFC347;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    border: 0 solid #FEE9BE;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.checkbox:checked+.label .inner {
+    margin-left: 0;
+}
+
+.checkbox:checked+.label .switch {
+    right: 0px;
+}

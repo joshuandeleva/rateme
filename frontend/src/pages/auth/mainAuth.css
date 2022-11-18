@@ -1,0 +1,50 @@
+.btn-facebk {
+  background-color: #005db5;
+  border: none;
+  color: #ffff;
+}
+.btn-google {
+  background-color: #ffc247;
+  border: none;
+  color: #ffff;
+}
+.btn-apple {
+  background-color: #000;
+  border: none;
+  color: #ffff;
+}
+.mainaccPage {
+  height: 100vh;
+}
+.acc-email a {
+  text-decoration: none;
+  color: #ffc247;
+}
+.acc-divider h2 {
+  width: 30%;
+  text-align: center;
+  border-bottom: 1px solid #aaaaaa;
+  line-height: 0.1em;
+  margin: 10px 30px 30px;
+}
+.acc-divider h2 span {
+  padding: 0 10px;
+  background-color: #ffff;
+}
+.dropzone {
+  flex: 1;
+  width: 70%;
+  height: 400px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-width: 2;
+  border-radius: 2;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}

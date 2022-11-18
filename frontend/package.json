@@ -1,0 +1,82 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@hookform/resolvers": "^2.8.9",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/material": "^5.6.4",
+    "@mui/x-date-pickers": "^5.0.0-alpha.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.1",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-datepicker": "^4.7.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.1.1",
+    "react-hook-form": "^7.31.1",
+    "react-icons": "^4.3.1",
+    "react-input-emoji": "^4.3.0",
+    "react-jwt": "^1.1.6",
+    "react-progressbar": "^15.4.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.5",
+    "react-tinder-card": "^1.4.5",
+    "react-toastify": "^8.2.0",
+    "socket.io-client": "^4.5.1",
+    "stream": "^0.0.2",
+    "sweetalert2": "^11.4.17",
+    "timeago": "^1.6.7",
+    "timeago.js": "^4.0.2",
+    "util": "^0.12.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "filepond": "^4.30.3",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.11",
+    "react-filepond": "^7.1.2"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
+  }
+}

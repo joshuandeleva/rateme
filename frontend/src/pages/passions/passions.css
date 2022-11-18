@@ -1,0 +1,12 @@
+.banner-container .profile-data .container .row button{
+    min-width: 100px;
+}
+.banner-container .profile-data .container .row input[type='checkbox']{
+    position: absolute;
+    
+    margin-top: 20px;
+    /* margin-left: 40px; */
+    display: hidden;
+
+
+}

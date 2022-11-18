@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dashbaord .row .banner-container .accounts-data .row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dashbaord .row .banner-container .accounts-data .row .col-sm-8 {
+    /* margin-left: -25px !important; */
+}
+
+.dashbaord .row .banner-container .accounts-data .row .col-sm-4 li {
+    text-align: center;
+    border-bottom: 2px solid #575756;
+    margin: 0px;
+}
+
+.dashbaord .row .banner-container .accounts-data .row .col-sm-4 .nav li a {
+    color: #575756;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.dashbaord .row .banner-container .accounts-data .row .col-sm-4 .nav li .active-item {
+    color: #FFCD6A;
+    font-weight: 900;
+}
+
+.dashbaord .row .banner-container .accounts-data .row .col-sm-4 .nav li:last-child {
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.dashbaord .row .banner-container .accounts-data .row .col-sm-4 .nav .active-first {
+    border: none !important;
+    margin-top: 8px !important;
+    font-weight: 900;
+}
+
+.col-sm-8 .emails-notifications {
+    margin-left: 5rem !important;
+}
+
+.col-sm-8 .emails-notifications form input {
+    background-color: #FEE9BE;
+}
+
+.col-sm-8 .emails-notifications form button {
+    width: 200px;
+}

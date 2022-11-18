@@ -1,0 +1,98 @@
+.dashbaord .banner-container .banner-bar .settings {
+  width: 120px;
+  height: 39px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #242731;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.dashbaord .banner-container .banner-bar .row .col-sm-8 .settings-links {
+  text-decoration: none;
+  /* Account details */
+
+  width: 134px;
+  height: 23px;
+
+  /* tittle/18 M */
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #5f6165;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.dashbaord
+  .banner-container
+  .banner-bar
+  .row
+  .col-sm-8
+  .settings-links.active-tab {
+  color: #ffc247 !important;
+}
+.dashbaord .banner-container .banner-bar .row .col-sm-6 .settings-data {
+  /* Component 86 */
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 14px;
+  width: 400px;
+  height: 30px;
+  border: 1px solid #e9eaec;
+  border-radius: 10px;
+ 
+}
+.dashbaord .banner-container .banner-bar  .settings-data-icon{
+  display: flex;
+}
+.dashbaord .banner-container .banner-bar .row label {
+  left: 0%;
+  right: 88.83%;
+  top: 0%;
+  bottom: 76.32%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7c7c8d;
+}
+
+.dashbaord .banner-container .banner-bar .row .col-sm-9 .settings-emails {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px 14px;
+  gap: 10px;
+
+  width: 788px;
+  height: 40px;
+
+  border: 1px solid #e9eaec;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

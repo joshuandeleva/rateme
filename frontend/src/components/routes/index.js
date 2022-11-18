@@ -1,0 +1,5 @@
+export const SAFETY = "/safety"
+export const TC = "/terms"
+export const CONTACT = "/contact"
+export const PRODUCT = "/product"
+export const DOWNLOADS = "downloads"

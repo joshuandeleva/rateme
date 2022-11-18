@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function Get_year(DOB1) {
+        const year_birth = DOB1.split("-")[0];
+        const year_m = DOB1.split("-")[1];
+        const year_month = year_m.split("0")[1];
+
+        const day = DOB1.split("-")[2];
+
+        const day_m = day.split(":")[0];
+        const day_b = day_m.split("T")[0];
+        const day_t = day_b.split("0")[1];
+
+        var dob1 = [year_birth, year_month, day_t];
+        var D_O_B = dob1.join("/");
+        console.log(D_O_B)
+      }
+      Get_year("1999-05-05T00:00:00.000Z");
+    </script>
+
+    <!-- <script src="./helpfunction.js"></script> -->
+  </body>
+</html>

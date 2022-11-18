@@ -1,0 +1,138 @@
+.dashboard {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+}
+
+.sidebar-container {
+  height: calc(110vh - 2px);
+  max-width: 280px;
+  flex: 3;
+  background-color: #04143f;
+  position: sticky !important;
+}
+
+.side-panel-header-logo {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.banner-container {
+  flex: 9;
+}
+
+.side-panel {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.sidebar-container .profile-details-bar {
+  padding: 0 !important;
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.side-panel-header {
+  margin-top: 30px;
+}
+
+.side-panel-header .side-panel-account-details-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-panel-header .side-panel-account-details-avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.side-panel-header .side-panel-account-details-avatar .profile-name h4 {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.dahsboard-navigation {
+  background-color: #dcdde1;
+  padding: 10px 10px;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  display: flex;
+  margin-left: 0;
+  overflow: hidden;
+}
+
+.dahsboard-navigation a {
+  display: flex;
+  left: 0;
+  align-items: center;
+  justify-content: flex-end;
+  color: #000;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+.banner-container .col-sm-3 {
+  margin-top: 10px;
+  max-width: 250px;
+}
+
+/*---message styles----*/
+.message-body {
+  padding-top: 40px;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.message-search-icon {
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+  margin: 10px;
+}
+.search-message-user > input::placeholder {
+  padding-left: 15px;
+}
+.message-body__showChats {
+  margin-left: 4px;
+}
+.message-icon-edit {
+  color: #ffc247;
+}
+.ChatWrapper {
+  border-left: 2px solid #aaaaaa;
+  height: 100%;
+  overflow: auto;
+}
+.chatBoxTop {
+  width: 100%;
+  max-height: 70vh;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.form-wrapper-bottom {
+  position: relative;
+  height: 70px;
+}
+.chatBoxBottom {
+  position: absolute;
+  width: 100%;
+}
+.message-body__showChats {
+  max-height: calc(80vh -100px);
+}

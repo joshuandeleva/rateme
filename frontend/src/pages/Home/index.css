@@ -1,0 +1,34 @@
+.homePage__items {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/bg-home-1.png);
+}
+.homePage__intro {
+  height: 100vh;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.btn-home {
+  background: #ffc247;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+.loader {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}

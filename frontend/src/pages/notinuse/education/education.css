@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.dashbaord .row .banner-container .accounts-data-profile .row .col-sm-8 {
+    margin-left: 7rem !important;
+    max-width: 550px;
+}
+
+.dashbaord .row .banner-container .accounts-data-profile .row .col-sm-8 input {
+    background-color: #FEE9BE;
+}
+
+.dashbaord .row .banner-container .accounts-data-profile .row .col-sm-8 .border-uni {
+    width: 250px;
+    border: 1px solid #FEE9BE;
+}
+
+.dashbaord .row .banner-container .accounts-data-profile .row .col-sm-8 button {
+    width: 240px;
+}

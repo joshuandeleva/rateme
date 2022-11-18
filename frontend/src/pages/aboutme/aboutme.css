@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.dashbaord .row .banner-container .accounts-data .row .col-sm-4 .border-none {
+    border: none;
+}
+
+.dashbaord .row .banner-container .col-sm-8 .about-profile {
+    margin-left: 7rem !important;
+}
+
+.dashbaord .row .banner-container .col-sm-8 .about-profile .profile-pictures-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.dashbaord .row .banner-container .col-sm-8 .about-profile .profile-pictures-img img {
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.dashbaord .row .banner-container .col-sm-8 .about-profile textarea {
+    background-color: #FEE9BE;
+}
+
+.dashbaord .row .banner-container .col-sm-8 .about-profile button {
+    max-width: 240px;
+    height: 40px;
+    width: 240px;
+}
